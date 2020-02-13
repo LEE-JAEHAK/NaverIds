@@ -68,4 +68,4 @@ public class Adapter extends BaseAdapter {
         return convertView;
     }
 }
-//git에 잘 올라가나? 한번더 수정
+//git에 잘 올라가나? 한번더 수정 깃에서 수정
