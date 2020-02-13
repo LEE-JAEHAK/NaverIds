@@ -13,11 +13,11 @@ import java.util.ArrayList;
 
 public class Adapter extends BaseAdapter {
 
-    ArrayList<BlogList> arrayList;
-    LayoutInflater inflater;
-    Context mContext;
+    private ArrayList<BlogList> arrayList;
+    private LayoutInflater inflater;
+    private Context mContext;
 
-    public Adapter(ArrayList<BlogList> arrayList, Context context) {
+    private Adapter(ArrayList<BlogList> arrayList, Context context) {
         this.mContext = context;
         this.arrayList = arrayList;
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -68,3 +68,4 @@ public class Adapter extends BaseAdapter {
         return convertView;
     }
 }
+//git에 잘 올라가나?
